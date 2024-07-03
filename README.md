@@ -21,16 +21,21 @@
         - HomeControl.xaml
             - 역할 : 메인 대시보드 역할
                 - 제어센서 모니터링(PanelControl.xaml) , 실시간상태 모니터링(PanelLiveInfo.xaml) , 성장 진행률 모니터링(PanelPicture.xaml)
+
                 - PanelControl.xaml
                     - 기본 DB값에서 추천해주는 기본값에 맞춰저 있는 각 수치를 사용자의 기준에 맞춰서 조절하고 환경을 최적화 할 수 있는 컨트롤 화면
                     - 물탱크의 급수량, 급수 주기, 온도, 조도 센서의 밝기 정도, 쿨링팬 작동 시간을 제어할 수 있는 기능을 제공
+                - ![PanelControl.xaml](https://raw.githubusercontent.com/final-project-smartparm/SmartFarm-WPF-Part/main/img/Sparm1.png)
                 - PanelLiveInfo.xaml
                     - 현재 온도 , 토양 수분도 , 조도 , 물탱크 상황 등 스마트팜의 주요 환경 지표를 실시간 반영해여 보여주는 화면
                     - 사용자가 위의 실시간 데이터를 통해서 상태를 파악하고 각 필요한 조치를 취할 수가 있음
                     - ex : 각각의 모니터링화면에서 경고가 발생!
+                - ![PanelLiveInfo.xaml](https://raw.githubusercontent.com/final-project-smartparm/SmartFarm-WPF-Part/main/img/Sparm2.png)
                 - PanelPicture.xaml
                     - 식물의 성장 과정을 시각적으로 추적 할 수 있는 화면
                     - 주기적으로 촬영된 사진을 앨범처럼 보여주면서 디자인과 성장 상태의 변화를 확인할 수 있음
+                - ![PanelPicture.xaml](https://raw.githubusercontent.com/final-project-smartparm/SmartFarm-WPF-Part/main/img/Sparm3.png)
+
 
 ## day02
         - MyPlantsControl.xaml
