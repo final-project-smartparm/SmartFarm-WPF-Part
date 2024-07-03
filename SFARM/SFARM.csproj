@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="26.1.40" />
   </ItemGroup>
 
   <ItemGroup>
