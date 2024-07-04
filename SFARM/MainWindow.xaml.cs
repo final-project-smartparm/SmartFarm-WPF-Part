@@ -37,5 +37,11 @@ namespace SFARM
             ActiveItem.Content = new Views.MyPlantsControl();
 
         }
+
+        private void BtnMyInfo_Click(object sender, RoutedEventArgs e)
+        {
+            ActiveItem.Content = new Views.MyInfoControl();
+
+        }
     }
 }

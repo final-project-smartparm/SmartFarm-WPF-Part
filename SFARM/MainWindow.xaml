@@ -84,6 +84,7 @@
                     <TextBlock Text="HOME" Style="{StaticResource menuButtonText}"/>
                 </StackPanel>
             </RadioButton>
+            
             <RadioButton Grid.Row ="3" Style="{StaticResource menuButton}" Tag="{StaticResource color5}"
                          x:Name="BtnMunMyPlants" Click="BtnMunMyPlants_Click">
                 <StackPanel Orientation="Horizontal">
@@ -91,7 +92,9 @@
                     <TextBlock Text="My Plants" Style="{StaticResource menuButtonText}"/>
                 </StackPanel>
             </RadioButton>
-            <RadioButton Grid.Row ="5" Style="{StaticResource menuButton}" Tag="{StaticResource color5}">
+            
+            <RadioButton Grid.Row ="5" Style="{StaticResource menuButton}" Tag="{StaticResource color5}"
+                         x:Name="BtnMyInfo" Click="BtnMyInfo_Click">
                 <StackPanel Orientation="Horizontal">
                     <fa:IconImage Icon="InfoCircle" Style="{StaticResource menuButtonIcon}"/>
                     <TextBlock Text="My Info" Style="{StaticResource menuButtonText}"/>
