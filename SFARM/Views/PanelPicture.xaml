@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:SFARM.Views"
              mc:Ignorable="d" 
              d:DesignHeight="560" d:DesignWidth="270">
-    <Grid Background="DarkGray">
-        <Frame Content="Frame" HorizontalAlignment="Left" Height="166" Margin="78,144,0,0" VerticalAlignment="Top" Width="111" RenderTransformOrigin="0.315,0.144"/>
+    <Grid Background="{StaticResource color5}">
+        
     </Grid>
 </UserControl>
