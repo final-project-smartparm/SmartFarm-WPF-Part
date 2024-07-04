@@ -1,7 +1,11 @@
 # SmartFarm-WPF-Part
 스마트팜 프로젝트 WPF개발 (UI) 
+- 아두이노 보드를 이용하여 식물관리 시스템을 구축하고 , WPF를 사용하여 사용자 인털페이스(UI) 를 개발하여 효율적인 환경 제어와 모니터링을 제공하는 스마트팜을 구현 
 
 ## day01
+사용기술 
+- 소프트웨어 : WPF , XAML , C#
+
 -  WPF를 사용하는 이유
     - XAML 언어로 컨트롤러를 유연하게 디자인 할 수 있기 때문에 스마트팜의 보여지는 UI가 많고 디테일한 시각적인 이미지가 중요하기 때문에 XAML코드 기반으로 사용하면 좋을것이라고 생각
     - 이쁜 디자인 : WPF는 UI를 이쁘게 꾸밀 수 있음 컨트롤러를 자유롭게 배치하고 꾸밀 수 있으면서 애니메이션 효과를 주어 사용자들에게 매력적인 화면을 제공할 수 있어서
@@ -36,7 +40,10 @@
                     - 주기적으로 촬영된 사진을 앨범처럼 보여주면서 디자인과 성장 상태의 변화를 확인할 수 있음
                 - ![PanelPicture.xaml](https://raw.githubusercontent.com/final-project-smartparm/SmartFarm-WPF-Part/main/img/Sparm3.png)
 
-
 ## day02
         - MyPlantsControl.xaml
             - 
+
+
+
+## day03
