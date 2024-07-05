@@ -193,6 +193,27 @@
     <!--#endregion-->
     
     <!--#region PanelPicture Style-->
-    
+    <Style x:Key="CircularProgressBarStyle" TargetType="Syncfusion:SfCircularProgressBar">
+        <Setter Property="TrackOuterRadius" Value="0.7" />
+        <Setter Property="TrackInnerRadius" Value="0" />
+        <Setter Property="Progress" Value="80" />
+        <Setter Property="RangeColors">
+            <Setter.Value>
+                <Syncfusion:RangeColorCollection>
+                    <Syncfusion:RangeColor IsGradient="True" Color="{StaticResource primaryBackColor4}" Start="10" End="30"/>
+                    <Syncfusion:RangeColor IsGradient="True" Color="{StaticResource primaryBackColor2}" Start="30" End="60"/>
+                    <Syncfusion:RangeColor IsGradient="True" Color="{StaticResource primaryBackColor3}" Start="60" End="100"/>
+                </Syncfusion:RangeColorCollection>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="ProgressContent">
+            <Setter.Value>
+                <StackPanel>
+                    <TextBlock Text="{Binding Progress, RelativeSource={RelativeSource AncestorType=Syncfusion:SfCircularProgressBar}, StringFormat={}{0}%}" 
+                               TextAlignment="Center" Width="78"/>
+                </StackPanel>
+            </Setter.Value>
+        </Setter>
+    </Style>
     <!--#endregion-->
 </ResourceDictionary>

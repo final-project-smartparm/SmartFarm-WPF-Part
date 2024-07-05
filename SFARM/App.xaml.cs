@@ -9,6 +9,9 @@ namespace SFARM
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NCaF5cXmZCeUx3RHxbf1x0ZFZMZFpbRHFPMyBoS35RckVkWXtec3BTRmdbVEFz");
+        }
     }
-
 }
