@@ -40,10 +40,3 @@
                     - 주기적으로 촬영된 사진을 앨범처럼 보여주면서 디자인과 성장 상태의 변화를 확인할 수 있음
                 - ![PanelPicture.xaml](https://raw.githubusercontent.com/final-project-smartparm/SmartFarm-WPF-Part/main/img/Sparm3.png)
 
-## day02
-        - MyPlantsControl.xaml
-            - 
-
-
-
-## day03
